@@ -4,7 +4,7 @@ import sh
 
 
 class FreetypeRecipe(Recipe):
-    version = "2.5.5"
+    version = "2.10.0"
     url = "https://download.savannah.gnu.org/releases/freetype/freetype-old/freetype-{version}.tar.bz2"
     library = "objs/.libs/libfreetype.a"
     include_dir = ["include", ("builds/unix/ftconfig.h", "config/ftconfig.h")]
