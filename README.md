@@ -1,6 +1,18 @@
 # Kivy for iOS
 
+install remote source
+```
 python3 -m pip install git+https://github.com/c4pt000/kivy-ios
+```
+uninstall remote source (pip)
+```
+python3 -m pip uninstall kivy-ios
+```
+uninstall local github clone source
+```
+python3 setup.py install --record files.txt
+xargs rm -rf < files.txt
+```
 
 [![kivy-ios](https://github.com/kivy/kivy-ios/workflows/kivy-ios/badge.svg)](https://github.com/kivy/kivy-ios/actions?query=workflow%3Akivy-ios)
 [![PyPI version](https://badge.fury.io/py/kivy-ios.svg)](https://badge.fury.io/py/kivy-ios)
