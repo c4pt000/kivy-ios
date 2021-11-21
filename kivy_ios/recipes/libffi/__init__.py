@@ -4,7 +4,7 @@ from os.path import exists
 
 
 class LibffiRecipe(Recipe):
-    version = "3.2.1"
+    version = "3.3"
     url = "https://sourceware.org/pub/libffi/libffi-{version}.tar.gz"
     library = "build/Release-{arch.sdk}/libffi.a"
     include_per_arch = True
