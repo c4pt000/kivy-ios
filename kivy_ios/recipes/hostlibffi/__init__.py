@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 
 class LibffiRecipe(Recipe):
-    version = "3.2.1"
+    version = "3.3"
     url = "ftp://sourceware.org/pub/libffi/libffi-{version}.tar.gz"
     library = "build/Release-{arch.sdk}/libffi.a"
     include_per_arch = True
