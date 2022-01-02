@@ -22,6 +22,11 @@ open electrum-ios/electrum.xcodeproj
 build with Xcode gui
 
 
+for pre-reqs for kivy-ios (old info use latest github pull here for kivy-ios instructions are for reference)
+https://pypi.org/project/kivy-ios/
+
+
+
 
 
 ```
